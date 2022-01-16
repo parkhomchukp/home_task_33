@@ -23,7 +23,7 @@ def fetch_pic(num_pic):
 # S = 1 / (0.01 + ((1 - 0.01) / 99)) = 50
 # 100 workers - 2.6623870999901555 s
 # 99 workers - 2.935737200008589 s
-# so optimum point is 100 workers
+# so optimum point == DATA_SIZE
 
 
 workers = 99
